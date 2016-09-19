@@ -1,0 +1,24 @@
+{
+  "name": "RightClick",
+  "description": "Module for overwriting right click functionality in the browser",
+  "main": "app/app.js",
+  "keywords": [
+    "contextmenu",
+    "right-click"
+  ],
+  "authors": [
+    "Ricky Harkins"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}

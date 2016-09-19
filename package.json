@@ -1,0 +1,23 @@
+{
+  "name": "right-click",
+  "version": "0.0.1",
+  "description": "Module for overwriting right-click functionality in the browser",
+  "main": "spec/index.js",
+  "scripts": {
+    "test": "protractor spec/conf.js",
+    "update": "node node_modules/protractor/bin/webdriver-manager update"
+  },
+  "keywords": [
+    "contextmenu",
+    "right-click"
+  ],
+  "author": "Ricky Harkins",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-protractor-runner": "^3.2.0",
+    "grunt-serve": "^0.1.6",
+    "protractor": "^4.0.8"
+  }
+}
